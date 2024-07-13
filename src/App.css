@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-panel {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  padding: 10px;
+  
+  
+}
+.sidebar img{
+  margin-left: 20%;
+  
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.header {
+  background-color: #aaa8a8;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar .navbar-brand img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-link {
+  color: white;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #495057;
+}
+
+
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.products-head{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+.products-head button{
+  background-color: rgb(236 51 55);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.products-head button:hover{
+  background-color: #c2bebe;
+  color: black;
+  cursor: pointer;
+}
+
+.products ul li{
+  text-decoration: none;
+  display: inline;
+ 
+
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+}
+.linkToEdit{
+  color: black;
+  text-decoration: none;
+}
+.linkToEdit link{
+  text-decoration: none;
+  color: black;
+}
+
+
+.btn-control{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
