@@ -11,7 +11,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Basic authentication logic
+    
     if (username === 'admin' && password === 'admin') {
       localStorage.setItem('auth', 'true');
       navigate('/products');
