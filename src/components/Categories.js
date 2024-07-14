@@ -9,7 +9,7 @@ const Categories = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    // Fetch categories from API
+    
     axios
       .get("https://fakestoreapi.com/products/categories")
       .then((response) => {
@@ -21,7 +21,7 @@ const Categories = () => {
   }, []);
 
   useEffect(() => {
-    // Fetch products when selectedCategory changes
+    
     if (selectedCategory) {
       axios
         .get(`https://fakestoreapi.com/products/category/${selectedCategory}`)
